@@ -26,7 +26,7 @@ export function RouteMap(option:MapRouteOption | string){
   }
 }
 
-const SwitchMap = ()=>{
+export function SwitchMap(){
   var routes = [];
   for(var props of _routes.values()){
       routes.push(<Route key={props.path} {...props} exact />);
@@ -37,9 +37,6 @@ const SwitchMap = ()=>{
     </Switch>
   );
 }
-export {
-  SwitchMap
-};
 
 /**
 @RouteMap({path:"/index/abc"})
