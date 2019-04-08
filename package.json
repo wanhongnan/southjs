@@ -1,6 +1,6 @@
 {
   "name": "southjs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "south libaray",
   "main": "dist/index.js",
   "filename": "dist/index.js",
