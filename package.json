@@ -1,8 +1,9 @@
 {
   "name": "southjs",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "south libaray",
   "main": "dist/index.js",
+  "filename": "dist/index.js",
   "repository": "https://github.com/wanhongnan/southjs.git",
   "author": "south",
   "license": "MIT",
