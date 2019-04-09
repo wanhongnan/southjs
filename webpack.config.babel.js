@@ -28,6 +28,10 @@ var webpackConfig = {
         })
     ],
     externals: {},
+    optimization : {
+        minimize: false
+    },
+    target:'node',
     module: {
         rules: [
             {

@@ -1,15 +1,17 @@
 {
   "name": "southjs",
-  "version": "1.0.2",
+  "version": "1.0.8",
   "description": "south libaray",
   "main": "dist/index.js",
   "filename": "dist/index.js",
+  "types": "dist/types/index.d.ts",
   "repository": "https://github.com/wanhongnan/southjs.git",
   "author": "south",
   "license": "MIT",
   "scripts": {
     "start": "",
-    "build": "webpack --mode production --display errors-only"
+    "build": "webpack --mode production --display errors-only",
+    "dist": "tsc --module system -p ."
   },
   "dependencies": {
     "react": "^16.8.2",

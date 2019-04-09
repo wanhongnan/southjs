@@ -6,8 +6,7 @@ export declare type MapRouteOption = {
     onLeave?: (nextState: Function, replaceState: Function) => void;
 };
 export declare function RouteMap(option: MapRouteOption | string): (target: any) => void;
-declare const SwitchMap: () => JSX.Element;
-export { SwitchMap };
+export declare function SwitchMap(): JSX.Element;
 /**
 @RouteMap({path:"/index/abc"})
 export class Test extends VComponent<any,StateLoading>{

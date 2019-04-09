@@ -1,9 +1,10 @@
 import { Loading, RenderLoading } from './Loading'
-import { RouteMap, SwitchMap } from './RouteMap'
+import { RouteMap, SwitchMap, MapRouteOption } from './RouteMap'
 
-export default {
+export {
+  MapRouteOption,
   Loading,
   RenderLoading,
   RouteMap,
-  SwitchMap          
+  SwitchMap
 }
